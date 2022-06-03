@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_4sVFoONUEeyLY6YdKPz8Og" name="LeRovinePerdute">
+    <eAnnotations xmi:id="_5ss9gONUEeyLY6YdKPz8Og" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_5ss9geNUEeyLY6YdKPz8Og" source="codegen">
+        <details xmi:id="_5ss9guNUEeyLY6YdKPz8Og" key="codegenDirectory" value="/LeRovinePerdute/src"/>
+        <details xmi:id="_5460kONUEeyLY6YdKPz8Og" key="AssociatedSourceCode" value="/LeRovinePerdute/src/it/unibs/progettoarnaldo/rovineperdute/Insediamento.java;443340591/1;/LeRovinePerdute/src/it/unibs/progettoarnaldo/rovineperdute/Main.java;2139467690/1;/LeRovinePerdute/src/it/unibs/progettoarnaldo/rovineperdute/Percorso.java;2399684547/1;/LeRovinePerdute/src/it/unibs/progettoarnaldo/rovineperdute/Scrittura.java;70023827/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_5zeT4ONUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze68ONUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze68eNUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze68uNUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze68-NUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze69ONUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze69eNUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_5ze69uNUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_5zfiAONUEeyLY6YdKPz8Og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5zEEMONUEeyLY6YdKPz8Og" name="it">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5zErQONUEeyLY6YdKPz8Og" name="unibs">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5zErQeNUEeyLY6YdKPz8Og" name="progettoarnaldo">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5zKx4ONUEeyLY6YdKPz8Og" name="rovineperdute">
+            <packagedElement xmi:type="uml:Class" xmi:id="_5zapgONUEeyLY6YdKPz8Og" name="Insediamento">
+              <ownedAttribute xmi:id="_50m8UONUEeyLY6YdKPz8Og" name="nome" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50m8UeNUEeyLY6YdKPz8Og" name="precedente">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50njYONUEeyLY6YdKPz8Og" name="carburante">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50njYeNUEeyLY6YdKPz8Og" name="x" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50oKcONUEeyLY6YdKPz8Og" name="y" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50oKceNUEeyLY6YdKPz8Og" name="h" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50oKcuNUEeyLY6YdKPz8Og" name="sentieri" type="_50GmAONUEeyLY6YdKPz8Og" isReadOnly="true" association="_507scONUEeyLY6YdKPz8Og"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_50x7cONUEeyLY6YdKPz8Og" name="Insediamento" specification="_50XEsONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50x7ceNUEeyLY6YdKPz8Og" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7cuNUEeyLY6YdKPz8Og" name="precedente">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7c-NUEeyLY6YdKPz8Og" name="carburante">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7dONUEeyLY6YdKPz8Og" name="x">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7deNUEeyLY6YdKPz8Og" name="y">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7duNUEeyLY6YdKPz8Og" name="z">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50x7d-NUEeyLY6YdKPz8Og" name="sentieri" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50x7eONUEeyLY6YdKPz8Og" type="_5zapgONUEeyLY6YdKPz8Og" direction="return"/>
+                <language>java</language>
+                <body>this.nome = nome;&#xD;
+		this.precedente = precedente;&#xD;
+		this.carburante = carburante;&#xD;
+		this.x = x;&#xD;
+		this.y = y;&#xD;
+		this.h = z;&#xD;
+		this.sentieri = sentieri;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_50XEsONUEeyLY6YdKPz8Og" name="Insediamento" method="_50x7cONUEeyLY6YdKPz8Og">
+                <eAnnotations xmi:id="_50XrwuNUEeyLY6YdKPz8Og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_50Xrw-NUEeyLY6YdKPz8Og" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_50XEseNUEeyLY6YdKPz8Og" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XEsuNUEeyLY6YdKPz8Og" name="precedente">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XEs-NUEeyLY6YdKPz8Og" name="carburante">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XEtONUEeyLY6YdKPz8Og" name="x">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XEteNUEeyLY6YdKPz8Og" name="y">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XrwONUEeyLY6YdKPz8Og" name="z">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50XrweNUEeyLY6YdKPz8Og" name="sentieri" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50XrxONUEeyLY6YdKPz8Og" type="_5zapgONUEeyLY6YdKPz8Og" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_5zilUONUEeyLY6YdKPz8Og" name="Main">
+              <ownedAttribute xmi:id="_50pYkONUEeyLY6YdKPz8Og" name="TEAM_1" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50pYkeNUEeyLY6YdKPz8Og" value="&quot;Tonatiuh&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50p_oONUEeyLY6YdKPz8Og" name="TEAM_2" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50p_oeNUEeyLY6YdKPz8Og" value="&quot;Metztli&quot;"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_502z8ONUEeyLY6YdKPz8Og" name="main" specification="_5zjzcONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_502z8eNUEeyLY6YdKPz8Og" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_502z8uNUEeyLY6YdKPz8Og" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int chiave = 0;&#xD;
+		double x = 0;&#xD;
+		double y = 0;&#xD;
+		double h = 0;&#xD;
+		double carburante1 = 0.0;&#xD;
+		double carburante2 = 0.0;&#xD;
+		String nome = &quot;&quot;;&#xD;
+		Percorso percorso = new Percorso();&#xD;
+		Scrittura scrittura = new Scrittura();&#xD;
+		ArrayList&lt;Integer> sentieri = new ArrayList&lt;Integer>();&#xD;
+		ArrayList&lt;Integer> sentieriTemp = new ArrayList&lt;Integer>();&#xD;
+		ArrayList&lt;Integer> percorsiPossibili = new ArrayList&lt;Integer>();&#xD;
+		ArrayList&lt;Integer> cittaToccate1 = new ArrayList&lt;Integer>();&#xD;
+		ArrayList&lt;Integer> cittaToccate2 = new ArrayList&lt;Integer>();&#xD;
+		HashMap&lt;Integer,Insediamento> mappaInsediamenti = new HashMap&lt;>();&#xD;
+		&#xD;
+		XMLInputFactory xmlif = null;&#xD;
+		XMLStreamReader xmlr = null;&#xD;
+		//Lettura del file xml;&#xD;
+		try {&#xD;
+			xmlif = XMLInputFactory.newInstance();&#xD;
+			xmlr = xmlif.createXMLStreamReader(&quot;src/it/unibs/progettoarnaldo/rovineperdute/Dati2000.xml&quot;, new FileInputStream(&quot;src/it/unibs/progettoarnaldo/rovineperdute/Dati2000.xml&quot;));&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(&quot;Errore nell'inizializzazione del reader:&quot;);&#xD;
+			System.out.println(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+		try {&#xD;
+			while(xmlr.hasNext()) {&#xD;
+				&#xD;
+				if(xmlr.getEventType() == XMLStreamConstants.START_ELEMENT) {&#xD;
+					if(xmlr.getLocalName().equals(&quot;city&quot;)) {&#xD;
+						for (int i = 0; i &lt; xmlr.getAttributeCount(); i++) {&#xD;
+							switch(i) {&#xD;
+								case 0:&#xD;
+									chiave = Integer.parseInt(xmlr.getAttributeValue(i));&#xD;
+									break;&#xD;
+								case 1:&#xD;
+									nome = xmlr.getAttributeValue(i);&#xD;
+									break;&#xD;
+								case 2:&#xD;
+									x = Double.parseDouble(xmlr.getAttributeValue(i));&#xD;
+									break;&#xD;
+								case 3:&#xD;
+									y = Double.parseDouble(xmlr.getAttributeValue(i));&#xD;
+									break;&#xD;
+								case 4:&#xD;
+									h = Double.parseDouble(xmlr.getAttributeValue(i));&#xD;
+									break;&#xD;
+							}&#xD;
+						}&#xD;
+					}&#xD;
+					else if(xmlr.getLocalName().equals(&quot;link&quot;)) {&#xD;
+						sentieri.add(Integer.parseInt(xmlr.getAttributeValue(0)));&#xD;
+					}&#xD;
+				}&#xD;
+				else if(xmlr.getEventType() == XMLStreamConstants.END_ELEMENT &amp;&amp; xmlr.getLocalName().equals(&quot;city&quot;)) {&#xD;
+					sentieriTemp = (ArrayList&lt;Integer>) sentieri.clone();&#xD;
+					mappaInsediamenti.put(chiave, new Insediamento(nome, 0, -1.0, x, y, h, sentieriTemp));&#xD;
+					sentieri.clear();&#xD;
+				}&#xD;
+				&#xD;
+				xmlr.next();&#xD;
+			}&#xD;
+		}&#xD;
+		 catch (Exception e)&#xD;
+     {&#xD;
+         System.out.println(&quot;Errore: non esiste una nuova riga da leggere\n&quot;);&#xD;
+     }&#xD;
+		percorsiPossibili.add(0); &#xD;
+		mappaInsediamenti.get(0).setCarburante(0);&#xD;
+		//chiamata metodo per trovare il percorso migliore per il team 1&#xD;
+		percorso.calcoloPercorso(TEAM_1, mappaInsediamenti, percorsiPossibili);&#xD;
+		//salvataggio carburante totale speso e citta in cui si è passati &#xD;
+		carburante1 = percorso.carburanteFinale(mappaInsediamenti);&#xD;
+		percorso.cittaToccate(mappaInsediamenti, cittaToccate1);&#xD;
+		&#xD;
+		//tolgo i valori di carburante e le città precendenti per richiamare il metodo con team 2&#xD;
+		for (HashMap.Entry&lt;Integer, Insediamento> entry : mappaInsediamenti.entrySet()) {&#xD;
+			 mappaInsediamenti.get(entry.getKey()).setCarburante(-1.0);&#xD;
+			 mappaInsediamenti.get(entry.getKey()).setPrecedente(0);&#xD;
+		}&#xD;
+		percorsiPossibili.clear();&#xD;
+		percorsiPossibili.add(0);&#xD;
+		mappaInsediamenti.get(0).setCarburante(0);&#xD;
+		&#xD;
+		//chiamata metodo per trovare il percorso migliore per il team 2&#xD;
+		percorso.calcoloPercorso(TEAM_2, mappaInsediamenti, percorsiPossibili);&#xD;
+		//salvataggio carburante totale speso e citta in cui si è passati &#xD;
+		carburante2 = percorso.carburanteFinale(mappaInsediamenti);&#xD;
+		percorso.cittaToccate(mappaInsediamenti, cittaToccate2);&#xD;
+		//chiamata metodo per la scrittura del file Routes.xml&#xD;
+		scrittura.scritturaOutput(mappaInsediamenti, carburante1, carburante2, cittaToccate1, cittaToccate2);&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_5zjzcONUEeyLY6YdKPz8Og" name="main" isStatic="true" method="_502z8ONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_5zjzceNUEeyLY6YdKPz8Og" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5zlBkONUEeyLY6YdKPz8Og" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_5zlooONUEeyLY6YdKPz8Og" name="Percorso">
+              <ownedAttribute xmi:id="_50p_ouNUEeyLY6YdKPz8Og" name="TEAM_1" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50p_o-NUEeyLY6YdKPz8Og" value="&quot;Tonatiuh&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50p_pONUEeyLY6YdKPz8Og" name="TEAM_2" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50qmsONUEeyLY6YdKPz8Og" value="&quot;Metztli&quot;"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_503bAONUEeyLY6YdKPz8Og" name="calcoloPercorso" specification="_50Y54ONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_503bAeNUEeyLY6YdKPz8Og" name="team">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_503bAuNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_503bA-NUEeyLY6YdKPz8Og" name="percorsiPossibili" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <language>java</language>
+                <body>int nodoMigliore = 0;&#xD;
+		//imposto trova rovine all'id delle rovine perdute&#xD;
+		int trovaRovine = trovaIdRovine(mappaInsediamenti);&#xD;
+		double costoMinimo = 0.0;&#xD;
+		boolean cambio = false;&#xD;
+		boolean presente = false;&#xD;
+		ArrayList&lt;Integer> strade = new ArrayList&lt;Integer>();&#xD;
+		&#xD;
+		//imposto il nodo migliore al primo elemento dell'array percorsiPossibili e il costoMinimo al suo carburante + il corburante neccessario per arrivare alle rovine perdute&#xD;
+		if(team.compareTo(TEAM_1) == 0) {&#xD;
+			costoMinimo = mappaInsediamenti.get(percorsiPossibili.get(0)).getCarburante() + algoritmo1(mappaInsediamenti, percorsiPossibili.get(0));&#xD;
+			nodoMigliore = percorsiPossibili.get(0);&#xD;
+		}&#xD;
+		else {&#xD;
+			costoMinimo = mappaInsediamenti.get(percorsiPossibili.get(0)).getCarburante() + algoritmo2(mappaInsediamenti, percorsiPossibili.get(0));&#xD;
+			nodoMigliore = percorsiPossibili.get(0);&#xD;
+		}&#xD;
+		//se percorsiPossibili ha piùi un elemento cerco se c'è un nodo migliore e imposto il nuovo costoMinimo&#xD;
+		if(percorsiPossibili.size() > 1) {&#xD;
+			for(int i = 1; i &lt; percorsiPossibili.size(); i++) {&#xD;
+				if(team.compareTo(TEAM_1) == 0) {&#xD;
+					if(mappaInsediamenti.get(percorsiPossibili.get(i)).getCarburante() + algoritmo1(mappaInsediamenti, percorsiPossibili.get(i)) &lt; costoMinimo) {&#xD;
+						nodoMigliore = percorsiPossibili.get(i);&#xD;
+						costoMinimo = mappaInsediamenti.get(percorsiPossibili.get(i)).getCarburante() + algoritmo1(mappaInsediamenti, percorsiPossibili.get(i));&#xD;
+					}&#xD;
+				}&#xD;
+				else {&#xD;
+					if(mappaInsediamenti.get(percorsiPossibili.get(i)).getCarburante() + algoritmo2(mappaInsediamenti, percorsiPossibili.get(i)) &lt; costoMinimo) {&#xD;
+						nodoMigliore = percorsiPossibili.get(i);&#xD;
+						costoMinimo = mappaInsediamenti.get(percorsiPossibili.get(i)).getCarburante() + algoritmo2(mappaInsediamenti, percorsiPossibili.get(i));&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		//se il nodoMigliore non è l'id delle rovine perdute aggiungo, se possibile, ai percorsiPossibili le città collegate al nodoMigliore &#xD;
+		if(nodoMigliore != trovaRovine) {&#xD;
+			//clono l'array delle città collegate al nodoMigliore&#xD;
+			strade = (ArrayList&lt;Integer>) mappaInsediamenti.get(nodoMigliore).getSentieri().clone();&#xD;
+			for(int i = 0; i &lt; strade.size(); i++) {&#xD;
+				cambio = false;&#xD;
+				presente = false;&#xD;
+				if(team.compareTo(TEAM_1) == 0) {&#xD;
+					//se non è già presente un valore di carburante lo calcolo e lo aggiungo con il metodo calcolaCarburante&#xD;
+					if(mappaInsediamenti.get(strade.get(i)).getCarburante() == -1) {&#xD;
+						mappaInsediamenti.get(strade.get(i)).setCarburante(calcolaCarburante1(mappaInsediamenti, strade.get(i), nodoMigliore));&#xD;
+						cambio = true;&#xD;
+					}&#xD;
+					//se è già presente un valore di carburante controllo che quello nuovo sia minore e nel caso lo reinserisco&#xD;
+					else if(calcolaCarburante1(mappaInsediamenti, strade.get(i), nodoMigliore) &lt; mappaInsediamenti.get(strade.get(i)).getCarburante()) {&#xD;
+						mappaInsediamenti.get(strade.get(i)).setCarburante(calcolaCarburante1(mappaInsediamenti, strade.get(i), nodoMigliore));&#xD;
+						cambio = true;&#xD;
+					}&#xD;
+					//se sono uguali controllo se il nuovo percorso tocca meno città&#xD;
+					else if(calcolaCarburante1(mappaInsediamenti, strade.get(i), nodoMigliore) == mappaInsediamenti.get(strade.get(i)).getCarburante()) {&#xD;
+						if(numCittaToccate(mappaInsediamenti, nodoMigliore) + 1 &lt; numCittaToccate(mappaInsediamenti, strade.get(i))) {&#xD;
+							cambio = true;&#xD;
+						}&#xD;
+						//se i percorsi toccano lo stesso numero di città controllo quale tocca la città con id maggiore&#xD;
+						else if(numCittaToccate(mappaInsediamenti, nodoMigliore) + 1 == numCittaToccate(mappaInsediamenti, strade.get(i))) {&#xD;
+							if(idPiuAlto(mappaInsediamenti, nodoMigliore) &lt; idPiuAlto(mappaInsediamenti, mappaInsediamenti.get(strade.get(i)).getPrecedente())) {&#xD;
+								cambio = true;&#xD;
+							}&#xD;
+						}&#xD;
+					}&#xD;
+					&#xD;
+				}&#xD;
+				//idem se è stato passato TEAM_2 &#xD;
+				else {&#xD;
+					if(mappaInsediamenti.get(strade.get(i)).getCarburante() == -1) {&#xD;
+						mappaInsediamenti.get(strade.get(i)).setCarburante(calcolaCarburante2(mappaInsediamenti, strade.get(i), nodoMigliore));&#xD;
+						cambio = true;&#xD;
+					}&#xD;
+					else if(calcolaCarburante2(mappaInsediamenti, strade.get(i), nodoMigliore) /*+ algoritmo2(mappaInsediamenti, strade.get(i))*/ &lt; mappaInsediamenti.get(strade.get(i)).getCarburante()) {&#xD;
+						mappaInsediamenti.get(strade.get(i)).setCarburante(calcolaCarburante2(mappaInsediamenti, strade.get(i), nodoMigliore));&#xD;
+						cambio = true;&#xD;
+					}&#xD;
+					else if(calcolaCarburante2(mappaInsediamenti, strade.get(i), nodoMigliore) == mappaInsediamenti.get(strade.get(i)).getCarburante()) {&#xD;
+						if(numCittaToccate(mappaInsediamenti, nodoMigliore) + 1 &lt; numCittaToccate(mappaInsediamenti, strade.get(i))) {&#xD;
+							cambio = true;&#xD;
+						}&#xD;
+						else if(numCittaToccate(mappaInsediamenti, nodoMigliore) + 1 == numCittaToccate(mappaInsediamenti, strade.get(i))) {&#xD;
+							if(idPiuAlto(mappaInsediamenti, nodoMigliore) &lt; idPiuAlto(mappaInsediamenti, mappaInsediamenti.get(strade.get(i)).getPrecedente())) {&#xD;
+								cambio = true;&#xD;
+							}&#xD;
+						}&#xD;
+					}&#xD;
+				}&#xD;
+				//se una delle condizioni sovrastanti è vera inserisco nel precedenete dell'i-esimo elemento di strade il nodo migliore&#xD;
+				if(cambio) {&#xD;
+					mappaInsediamenti.get(strade.get(i)).setPrecedente(nodoMigliore);&#xD;
+					//controllo che l'i-esimo elemento di strade non ci sia già nell'array dei nodiPossibili, se così non fosse lo aggiungo&#xD;
+					for(int j = 0; j &lt; percorsiPossibili.size(); j++) {&#xD;
+						if(percorsiPossibili.get(j).equals(strade.get(i))) {&#xD;
+							presente = true;&#xD;
+						}&#xD;
+					}&#xD;
+					if(!presente) {&#xD;
+						percorsiPossibili.add(strade.get(i));		&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+			//tolgo nodoMigliore dai nodiPossibili&#xD;
+			for(int i = 0; i &lt; percorsiPossibili.size(); i++) {&#xD;
+				if(percorsiPossibili.get(i) == nodoMigliore) {&#xD;
+					percorsiPossibili.remove(i);&#xD;
+					break;&#xD;
+				}	&#xD;
+			}			&#xD;
+			calcoloPercorso(team, mappaInsediamenti, percorsiPossibili);&#xD;
+		}&#xD;
+			&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_503bBONUEeyLY6YdKPz8Og" name="calcolaCarburante1" specification="_50avEeNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_503bBeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_503bBuNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_503bB-NUEeyLY6YdKPz8Og" name="prec">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_503bCONUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>double cramorant = 0.0;&#xD;
+		double x1 = mappaInsediamenti.get(pos).getX();&#xD;
+		double y1 = mappaInsediamenti.get(pos).getY();&#xD;
+		double x2 = mappaInsediamenti.get(prec).getX();&#xD;
+		double y2 = mappaInsediamenti.get(prec).getY();&#xD;
+		&#xD;
+		cramorant = Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2)) + mappaInsediamenti.get(prec).getCarburante();&#xD;
+		return cramorant;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_503bCeNUEeyLY6YdKPz8Og" name="calcolaCarburante2" specification="_50b9MONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_503bCuNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_503bC-NUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_503bDONUEeyLY6YdKPz8Og" name="prec">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_503bDeNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>double lechonk = 0.0;&#xD;
+		int trovaRovine = 0;&#xD;
+		double h1 = mappaInsediamenti.get(pos).getH();&#xD;
+		double h2 = mappaInsediamenti.get(prec).getH();&#xD;
+&#xD;
+		lechonk = Math.abs(h2 - h1) + mappaInsediamenti.get(prec).getCarburante();&#xD;
+		return lechonk;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504CEONUEeyLY6YdKPz8Og" name="algoritmo1" specification="_50ckQeNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504CEeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504CEuNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_504CE-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int trovaRovine = trovaIdRovine(mappaInsediamenti);&#xD;
+		double aggiunta = 0.0;&#xD;
+		double x1 = mappaInsediamenti.get(pos).getX();&#xD;
+		double y1 = mappaInsediamenti.get(pos).getY();&#xD;
+		double xRovine = mappaInsediamenti.get(trovaRovine).getX();&#xD;
+		double yRovine = mappaInsediamenti.get(trovaRovine).getY();&#xD;
+		&#xD;
+		aggiunta = Math.sqrt(Math.pow(xRovine-x1, 2)+Math.pow(yRovine-y1, 2));&#xD;
+		return aggiunta;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504CFONUEeyLY6YdKPz8Og" name="algoritmo2" specification="_50dyYONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504CFeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504CFuNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_504CF-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int trovaRovine = trovaIdRovine(mappaInsediamenti);&#xD;
+		double aggiunta = 0.0;&#xD;
+		double h1 = mappaInsediamenti.get(pos).getH();&#xD;
+		double hRovine = mappaInsediamenti.get(trovaRovine).getH();&#xD;
+		&#xD;
+		aggiunta = Math.abs(hRovine - h1);&#xD;
+		return aggiunta;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504CGONUEeyLY6YdKPz8Og" name="carburanteFinale" specification="_50eZceNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504CGeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504CGuNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int trovaRovine = trovaIdRovine(mappaInsediamenti);&#xD;
+		&#xD;
+		return mappaInsediamenti.get(trovaRovine).getCarburante();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504CG-NUEeyLY6YdKPz8Og" name="cittaToccate" specification="_50fnkONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504CHONUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504CHeNUEeyLY6YdKPz8Og" name="cittaAttraversate" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <language>java</language>
+                <body>int idCitta = trovaIdRovine(mappaInsediamenti);&#xD;
+		do {&#xD;
+			cittaAttraversate.add(idCitta);&#xD;
+			idCitta = mappaInsediamenti.get(idCitta).getPrecedente();&#xD;
+		}while(idCitta != 0);&#xD;
+		cittaAttraversate.add(idCitta);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504pIONUEeyLY6YdKPz8Og" name="trovaIdRovine" specification="_50g1seNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504pIeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504pIuNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int trovaRovine = 0;&#xD;
+		for (HashMap.Entry&lt;Integer, Insediamento> entry : mappaInsediamenti.entrySet()) {&#xD;
+			 if(entry.getKey() > trovaRovine) {&#xD;
+				 trovaRovine = entry.getKey();&#xD;
+			 }&#xD;
+		}&#xD;
+		return trovaRovine;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504pI-NUEeyLY6YdKPz8Og" name="numCittaToccate" specification="_50iD0ONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504pJONUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504pJeNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_504pJuNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int cnt = 0;&#xD;
+		do {&#xD;
+			cnt++;&#xD;
+			pos = mappaInsediamenti.get(pos).getPrecedente();&#xD;
+		}while(pos != 0);&#xD;
+		return cnt;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_504pJ-NUEeyLY6YdKPz8Og" name="idPiuAlto" specification="_50iq4eNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_504pKONUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_504pKeNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_504pKuNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int alto = 0;&#xD;
+		do {&#xD;
+			if(pos > alto) {&#xD;
+				alto = pos;&#xD;
+			}&#xD;
+			pos = mappaInsediamenti.get(pos).getPrecedente();&#xD;
+		}while(pos != 0);&#xD;
+		return alto;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_50Y54ONUEeyLY6YdKPz8Og" name="calcoloPercorso" method="_503bAONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50Zg8ONUEeyLY6YdKPz8Og" name="team">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50Zg8eNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50Zg8uNUEeyLY6YdKPz8Og" name="percorsiPossibili" type="_50GmAONUEeyLY6YdKPz8Og"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50avEeNUEeyLY6YdKPz8Og" name="calcolaCarburante1" method="_503bBONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50avEuNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50avE-NUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50avFONUEeyLY6YdKPz8Og" name="prec">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50avFeNUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50b9MONUEeyLY6YdKPz8Og" name="calcolaCarburante2" method="_503bCeNUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50b9MeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50b9MuNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50b9M-NUEeyLY6YdKPz8Og" name="prec">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50b9NONUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50ckQeNUEeyLY6YdKPz8Og" name="algoritmo1" method="_504CEONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50ckQuNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50ckQ-NUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50ckRONUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50dyYONUEeyLY6YdKPz8Og" name="algoritmo2" method="_504CFONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50dyYeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50dyYuNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50dyY-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50eZceNUEeyLY6YdKPz8Og" name="carburanteFinale" method="_504CGONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50eZcuNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50eZc-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50fnkONUEeyLY6YdKPz8Og" name="cittaToccate" method="_504CG-NUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50fnkeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50fnkuNUEeyLY6YdKPz8Og" name="cittaAttraversate" type="_50GmAONUEeyLY6YdKPz8Og"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50g1seNUEeyLY6YdKPz8Og" name="trovaIdRovine" method="_504pIONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50g1suNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50g1s-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50iD0ONUEeyLY6YdKPz8Og" name="numCittaToccate" method="_504pI-NUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50iD0eNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50iD0uNUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50iD0-NUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_50iq4eNUEeyLY6YdKPz8Og" name="idPiuAlto" method="_504pJ-NUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50iq4uNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50iq4-NUEeyLY6YdKPz8Og" name="pos">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50jR8ONUEeyLY6YdKPz8Og" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_5zs9YONUEeyLY6YdKPz8Og" name="Scrittura">
+              <ownedAttribute xmi:id="_50qmseNUEeyLY6YdKPz8Og" name="UTF" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50qmsuNUEeyLY6YdKPz8Og" value="&quot;utf-8&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50rNwONUEeyLY6YdKPz8Og" name="VERSION" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50rNweNUEeyLY6YdKPz8Og" value="&quot;1.0&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50rNwuNUEeyLY6YdKPz8Og" name="TEAM_1" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50rNw-NUEeyLY6YdKPz8Og" value="&quot;Tonatiuh&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_50rNxONUEeyLY6YdKPz8Og" name="TEAM_2" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_50rNxeNUEeyLY6YdKPz8Og" value="&quot;Metztli&quot;"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_505QMONUEeyLY6YdKPz8Og" name="scritturaOutput" specification="_50j5AONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_505QMeNUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_505QMuNUEeyLY6YdKPz8Og" name="carburante1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_505QM-NUEeyLY6YdKPz8Og" name="carburante2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_505QNONUEeyLY6YdKPz8Og" name="citta1" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_505QNeNUEeyLY6YdKPz8Og" name="citta2" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <language>java</language>
+                <body>XMLOutputFactory xmlof = null;&#xD;
+		XMLStreamWriter xmlw = null;&#xD;
+		try {&#xD;
+			xmlof = XMLOutputFactory.newInstance();&#xD;
+			xmlw = xmlof.createXMLStreamWriter(new FileOutputStream(&quot;src/it/unibs/progettoarnaldo/rovineperdute/Routes.xml&quot;), UTF);&#xD;
+			xmlw.writeStartDocument(UTF, VERSION);&#xD;
+		} &#xD;
+		catch (Exception e) {&#xD;
+			System.out.println(&quot;Errore nell'inizializzazione del writer:&quot;);&#xD;
+			System.out.println(e.getMessage());&#xD;
+		}&#xD;
+		&#xD;
+		try {&#xD;
+			xmlw.writeStartElement(&quot;routes&quot;);&#xD;
+			xmlw.writeStartElement(&quot;route&quot;);&#xD;
+			xmlw.writeAttribute(&quot;team&quot;, TEAM_1);&#xD;
+			xmlw.writeAttribute(&quot;cost&quot;, Double.toString(carburante1));&#xD;
+			xmlw.writeAttribute(&quot;cities&quot;, Integer.toString(citta1.size()));&#xD;
+			for(int i = citta1.size()-1; i >= 0; i--) {&#xD;
+				xmlw.writeStartElement(&quot;city&quot;);&#xD;
+				xmlw.writeAttribute(&quot;id&quot;, Integer.toString(citta1.get(i)));&#xD;
+				xmlw.writeAttribute(&quot;name&quot;, mappaInsediamenti.get(citta1.get(i)).getNome());&#xD;
+				xmlw.writeEndElement();&#xD;
+			}&#xD;
+			xmlw.writeEndElement();&#xD;
+			xmlw.writeStartElement(&quot;route&quot;);&#xD;
+			xmlw.writeAttribute(&quot;team&quot;, TEAM_2);&#xD;
+			xmlw.writeAttribute(&quot;cost&quot;, Double.toString(carburante2));&#xD;
+			xmlw.writeAttribute(&quot;cities&quot;, Integer.toString(citta2.size()));&#xD;
+			for(int i = citta2.size()-1; i >= 0; i--) {&#xD;
+				xmlw.writeStartElement(&quot;city&quot;);&#xD;
+				xmlw.writeAttribute(&quot;id&quot;, Integer.toString(citta2.get(i)));&#xD;
+				xmlw.writeAttribute(&quot;name&quot;, mappaInsediamenti.get(citta2.get(i)).getNome());&#xD;
+				xmlw.writeEndElement();&#xD;
+			}&#xD;
+			xmlw.writeEndElement();&#xD;
+			xmlw.writeEndDocument();&#xD;
+			xmlw.flush();&#xD;
+			xmlw.close();&#xD;
+&#xD;
+		}&#xD;
+		catch (Exception e) {&#xD;
+			System.out.println(&quot;Errore nella scrittura&quot;);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_50j5AONUEeyLY6YdKPz8Og" name="scritturaOutput" method="_505QMONUEeyLY6YdKPz8Og">
+                <ownedParameter xmi:id="_50kgEONUEeyLY6YdKPz8Og" name="mappaInsediamenti" type="_50K3ceNUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50kgEeNUEeyLY6YdKPz8Og" name="carburante1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50kgEuNUEeyLY6YdKPz8Og" name="carburante2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_50kgE-NUEeyLY6YdKPz8Og" name="citta1" type="_50GmAONUEeyLY6YdKPz8Og"/>
+                <ownedParameter xmi:id="_50kgFONUEeyLY6YdKPz8Og" name="citta2" type="_50GmAONUEeyLY6YdKPz8Og"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_507scONUEeyLY6YdKPz8Og" name="" memberEnd="_507sceNUEeyLY6YdKPz8Og _50oKcuNUEeyLY6YdKPz8Og">
+              <ownedEnd xmi:id="_507sceNUEeyLY6YdKPz8Og" name="" type="_5zapgONUEeyLY6YdKPz8Og" association="_507scONUEeyLY6YdKPz8Og"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5zGgcONUEeyLY6YdKPz8Og" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5zHHgONUEeyLY6YdKPz8Og" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_50GmAONUEeyLY6YdKPz8Og" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_50K3ceNUEeyLY6YdKPz8Og" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_50Oh0ONUEeyLY6YdKPz8Og" name="Iterator"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5zNOIONUEeyLY6YdKPz8Og" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_50KQYONUEeyLY6YdKPz8Og" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_50SzQONUEeyLY6YdKPz8Og" name="FileOutputStream"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5zNOIeNUEeyLY6YdKPz8Og" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5zNOIuNUEeyLY6YdKPz8Og" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5zNOI-NUEeyLY6YdKPz8Og" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_50LegeNUEeyLY6YdKPz8Og" name="XMLInputFactory"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_50MsoONUEeyLY6YdKPz8Og" name="XMLStreamConstants"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_50MsouNUEeyLY6YdKPz8Og" name="XMLStreamReader"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_50TaUeNUEeyLY6YdKPz8Og" name="XMLOutputFactory"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_50UBYeNUEeyLY6YdKPz8Og" name="XMLStreamWriter"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_5suLoONUEeyLY6YdKPz8Og">
+      <eAnnotations xmi:id="_5sydEONUEeyLY6YdKPz8Og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_5s2HcONUEeyLY6YdKPz8Og" base_Package="_4sVFoONUEeyLY6YdKPz8Og">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_50H0IONUEeyLY6YdKPz8Og" base_Element="_50GmAONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50K3cONUEeyLY6YdKPz8Og" base_Element="_50KQYONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50LegONUEeyLY6YdKPz8Og" base_Element="_50K3ceNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50MFkONUEeyLY6YdKPz8Og" base_Element="_50LegeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50MsoeNUEeyLY6YdKPz8Og" base_Element="_50MsoONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50N6wONUEeyLY6YdKPz8Og" base_Element="_50MsouNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50PI4ONUEeyLY6YdKPz8Og" base_Element="_50Oh0ONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50TaUONUEeyLY6YdKPz8Og" base_Element="_50SzQONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50UBYONUEeyLY6YdKPz8Og" base_Element="_50TaUeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_50UocONUEeyLY6YdKPz8Og" base_Element="_50UBYeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50YS0ONUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50XrweNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50aIAONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50Zg8eNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50avEONUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50Zg8uNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50bWIONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50avEuNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50ckQONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50b9MeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50dLUONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50ckQuNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50eZcONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50dyYeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50fAgONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50eZcuNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50gOoONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50fnkeNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50g1sONUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50fnkuNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50hcwONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50g1suNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50iq4ONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50iD0eNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50jR8eNUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50iq4uNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50lHIONUEeyLY6YdKPz8Og" genericsValue="Integer,Insediamento" base_Element="_50kgEONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50luMONUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50kgE-NUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50luMeNUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50kgFONUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Generics xmi:id="_50oxgONUEeyLY6YdKPz8Og" genericsValue="Integer" base_Element="_50oKcuNUEeyLY6YdKPz8Og"/>
+  <UMLLabProfile:Reference xmi:id="_508TgONUEeyLY6YdKPz8Og" base_Element="_507scONUEeyLY6YdKPz8Og"/>
+</xmi:XMI>

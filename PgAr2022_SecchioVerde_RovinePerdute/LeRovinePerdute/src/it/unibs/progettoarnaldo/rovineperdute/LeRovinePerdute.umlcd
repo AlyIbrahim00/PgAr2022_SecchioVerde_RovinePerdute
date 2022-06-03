@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5nefQONUEeyLY6YdKPz8Og">
+  <modelElement href="LeRovinePerdute.uml#_5zKx4ONUEeyLY6YdKPz8Og"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_554d4ONUEeyLY6YdKPz8Og" source="_55_LkONUEeyLY6YdKPz8Og">
+    <modelElement href="LeRovinePerdute.uml#_507scONUEeyLY6YdKPz8Og"/>
+    <stereotypes xmi:id="_558vUuNUEeyLY6YdKPz8Og" name="Reference">
+      <modelElement href="LeRovinePerdute.uml#_508TgONUEeyLY6YdKPz8Og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_557hMONUEeyLY6YdKPz8Og" text=""/>
+    <sourceRole xmi:id="_558vUONUEeyLY6YdKPz8Og" aggregationKind="NONE" name="">
+      <modelElement href="LeRovinePerdute.uml#_507sceNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_5599cONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_559WYONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_558vUeNUEeyLY6YdKPz8Og" aggregationKind="NONE" name="sentieri" navigable="true">
+      <modelElement href="LeRovinePerdute.uml#_50oKcuNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_5599cuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_5599ceNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_55NIcONUEeyLY6YdKPz8Og" name="Scrittura">
+    <modelElement href="LeRovinePerdute.uml#_5zs9YONUEeyLY6YdKPz8Og"/>
+    <visualProperties xmi:id="_55NIceNUEeyLY6YdKPz8Og" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_55NIcuNUEeyLY6YdKPz8Og" label="+"/>
+    <attributes xmi:id="_55NIc-NUEeyLY6YdKPz8Og" defaultValue="&quot;utf-8&quot;" name="UTF" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50qmseNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55NIdONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_55NIdeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55NIduNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55NId-NUEeyLY6YdKPz8Og" defaultValue="&quot;1.0&quot;" name="VERSION" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50rNwONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55NIeONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_55NIeeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55NIeuNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55NIe-NUEeyLY6YdKPz8Og" defaultValue="&quot;Tonatiuh&quot;" name="TEAM_1" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50rNwuNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55NIfONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_55NIfeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55NIfuNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55NIf-NUEeyLY6YdKPz8Og" defaultValue="&quot;Metztli&quot;" name="TEAM_2" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50rNxONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55NIgONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_55NIgeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55NIguNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_55NIg-NUEeyLY6YdKPz8Og" name="scritturaOutput">
+      <modelElement href="LeRovinePerdute.uml#_50j5AONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55NIhONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55NIheNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_55NIhuNUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50kgEONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55NIh-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55NIiONUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55NIieNUEeyLY6YdKPz8Og" name="carburante1">
+        <modelElement href="LeRovinePerdute.uml#_50kgEeNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55NIiuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55NIi-NUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55NIjONUEeyLY6YdKPz8Og" name="carburante2">
+        <modelElement href="LeRovinePerdute.uml#_50kgEuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55NIjeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55NIjuNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55NIj-NUEeyLY6YdKPz8Og" name="citta1">
+        <modelElement href="LeRovinePerdute.uml#_50kgE-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55NIkONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55NIkeNUEeyLY6YdKPz8Og" name="ArrayList">
+          <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55NIkuNUEeyLY6YdKPz8Og" name="citta2">
+        <modelElement href="LeRovinePerdute.uml#_50kgFONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55NIk-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55NIlONUEeyLY6YdKPz8Og" name="ArrayList">
+          <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_55_LkONUEeyLY6YdKPz8Og" name="Insediamento" associationsOut="_554d4ONUEeyLY6YdKPz8Og">
+    <modelElement href="LeRovinePerdute.uml#_5zapgONUEeyLY6YdKPz8Og"/>
+    <visualProperties xmi:id="_55_LkeNUEeyLY6YdKPz8Og" position="-1023.0,-39.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_55_LkuNUEeyLY6YdKPz8Og" label="+"/>
+    <attributes xmi:id="_55_Lk-NUEeyLY6YdKPz8Og" name="nome">
+      <modelElement href="LeRovinePerdute.uml#_50m8UONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LlONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LleNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LluNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Ll-NUEeyLY6YdKPz8Og" name="precedente">
+      <modelElement href="LeRovinePerdute.uml#_50m8UeNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LmONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LmeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LmuNUEeyLY6YdKPz8Og" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Lm-NUEeyLY6YdKPz8Og" name="carburante">
+      <modelElement href="LeRovinePerdute.uml#_50njYONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LnONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LneNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LnuNUEeyLY6YdKPz8Og" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Ln-NUEeyLY6YdKPz8Og" name="x">
+      <modelElement href="LeRovinePerdute.uml#_50njYeNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LoONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LoeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LouNUEeyLY6YdKPz8Og" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Lo-NUEeyLY6YdKPz8Og" name="y">
+      <modelElement href="LeRovinePerdute.uml#_50oKcONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LpONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LpeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LpuNUEeyLY6YdKPz8Og" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Lp-NUEeyLY6YdKPz8Og" name="h">
+      <modelElement href="LeRovinePerdute.uml#_50oKceNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_55_LqONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LqeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_LquNUEeyLY6YdKPz8Og" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_55_Lq-NUEeyLY6YdKPz8Og" name="sentieri">
+      <modelElement href="LeRovinePerdute.uml#_50oKcuNUEeyLY6YdKPz8Og"/>
+      <stereotypes xmi:id="_55_LrONUEeyLY6YdKPz8Og" name="Generics">
+        <modelElement href="LeRovinePerdute.uml#_50oxgONUEeyLY6YdKPz8Og"/>
+      </stereotypes>
+      <visibility xmi:id="_55_LreNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_LruNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_55_Lr-NUEeyLY6YdKPz8Og" name="ArrayList">
+        <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_55_LsONUEeyLY6YdKPz8Og" name="Insediamento">
+      <modelElement href="LeRovinePerdute.uml#_50XEsONUEeyLY6YdKPz8Og"/>
+      <keywords xmi:id="_55_LseNUEeyLY6YdKPz8Og" keyword="create"/>
+      <visibility xmi:id="_55_LsuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_55_Ls-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_55_LtONUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50XrxONUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_55_LteNUEeyLY6YdKPz8Og" name="Insediamento">
+          <modelElement href="LeRovinePerdute.uml#_5zapgONUEeyLY6YdKPz8Og"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_55_LtuNUEeyLY6YdKPz8Og" name="nome">
+        <modelElement href="LeRovinePerdute.uml#_50XEseNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_Lt-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_LuONUEeyLY6YdKPz8Og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_LueNUEeyLY6YdKPz8Og" name="precedente">
+        <modelElement href="LeRovinePerdute.uml#_50XEsuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_LuuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_Lu-NUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_LvONUEeyLY6YdKPz8Og" name="carburante">
+        <modelElement href="LeRovinePerdute.uml#_50XEs-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_LveNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_LvuNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_Lv-NUEeyLY6YdKPz8Og" name="x">
+        <modelElement href="LeRovinePerdute.uml#_50XEtONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_LwONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_LweNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_LwuNUEeyLY6YdKPz8Og" name="y">
+        <modelElement href="LeRovinePerdute.uml#_50XEteNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_Lw-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_LxONUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_LxeNUEeyLY6YdKPz8Og" name="z">
+        <modelElement href="LeRovinePerdute.uml#_50XrwONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_LxuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_Lx-NUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_55_LyONUEeyLY6YdKPz8Og" name="sentieri">
+        <modelElement href="LeRovinePerdute.uml#_50XrweNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_55_LyeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_55_LyuNUEeyLY6YdKPz8Og" name="ArrayList">
+          <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_56Mm8ONUEeyLY6YdKPz8Og" name="Percorso">
+    <modelElement href="LeRovinePerdute.uml#_5zlooONUEeyLY6YdKPz8Og"/>
+    <visualProperties xmi:id="_56Mm8eNUEeyLY6YdKPz8Og" position="994.0,-131.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_56Mm8uNUEeyLY6YdKPz8Og" label="+"/>
+    <attributes xmi:id="_56Mm8-NUEeyLY6YdKPz8Og" defaultValue="&quot;Tonatiuh&quot;" name="TEAM_1" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50p_ouNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56Mm9ONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_56Mm9eNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_56Mm9uNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_56Mm9-NUEeyLY6YdKPz8Og" defaultValue="&quot;Metztli&quot;" name="TEAM_2" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50p_pONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56Mm-ONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_56Mm-eNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_56Mm-uNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_56Mm--NUEeyLY6YdKPz8Og" name="calcoloPercorso">
+      <modelElement href="LeRovinePerdute.uml#_50Y54ONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56Mm_ONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56Mm_eNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_56Mm_uNUEeyLY6YdKPz8Og" name="team">
+        <modelElement href="LeRovinePerdute.uml#_50Zg8ONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56Mm_-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnAONUEeyLY6YdKPz8Og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnAeNUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50Zg8eNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnAuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnA-NUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnBONUEeyLY6YdKPz8Og" name="percorsiPossibili">
+        <modelElement href="LeRovinePerdute.uml#_50Zg8uNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnBeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnBuNUEeyLY6YdKPz8Og" name="ArrayList">
+          <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnB-NUEeyLY6YdKPz8Og" name="calcolaCarburante1">
+      <modelElement href="LeRovinePerdute.uml#_50avEeNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnCONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnCeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnCuNUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50avFeNUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnC-NUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnDONUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50avEuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnDeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnDuNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnD-NUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50avE-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnEONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnEeNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnEuNUEeyLY6YdKPz8Og" name="prec">
+        <modelElement href="LeRovinePerdute.uml#_50avFONUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnE-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnFONUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnFeNUEeyLY6YdKPz8Og" name="calcolaCarburante2">
+      <modelElement href="LeRovinePerdute.uml#_50b9MONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnFuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnF-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnGONUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50b9NONUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnGeNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnGuNUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50b9MeNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnG-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnHONUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnHeNUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50b9MuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnHuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnH-NUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnIONUEeyLY6YdKPz8Og" name="prec">
+        <modelElement href="LeRovinePerdute.uml#_50b9M-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnIeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnIuNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnI-NUEeyLY6YdKPz8Og" name="algoritmo1">
+      <modelElement href="LeRovinePerdute.uml#_50ckQeNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnJONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnJeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnJuNUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50ckRONUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnJ-NUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnKONUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50ckQuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnKeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnKuNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnK-NUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50ckQ-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnLONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnLeNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnLuNUEeyLY6YdKPz8Og" name="algoritmo2">
+      <modelElement href="LeRovinePerdute.uml#_50dyYONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnL-NUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnMONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnMeNUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50dyY-NUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnMuNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnM-NUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50dyYeNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnNONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnNeNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnNuNUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50dyYuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnN-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnOONUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnOeNUEeyLY6YdKPz8Og" name="carburanteFinale">
+      <modelElement href="LeRovinePerdute.uml#_50eZceNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnOuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnO-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnPONUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50eZc-NUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnPeNUEeyLY6YdKPz8Og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnPuNUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50eZcuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnP-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnQONUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnQeNUEeyLY6YdKPz8Og" name="cittaToccate">
+      <modelElement href="LeRovinePerdute.uml#_50fnkONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnQuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnQ-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_56MnRONUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50fnkeNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnReNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnRuNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnR-NUEeyLY6YdKPz8Og" name="cittaAttraversate">
+        <modelElement href="LeRovinePerdute.uml#_50fnkuNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnSONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnSeNUEeyLY6YdKPz8Og" name="ArrayList">
+          <modelElement href="LeRovinePerdute.uml#_50GmAONUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnSuNUEeyLY6YdKPz8Og" name="trovaIdRovine">
+      <modelElement href="LeRovinePerdute.uml#_50g1seNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnS-NUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnTONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnTeNUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50g1s-NUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnTuNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnT-NUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50g1suNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnUONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnUeNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnUuNUEeyLY6YdKPz8Og" name="numCittaToccate">
+      <modelElement href="LeRovinePerdute.uml#_50iD0ONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnU-NUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnVONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnVeNUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50iD0-NUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnVuNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnV-NUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50iD0eNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnWONUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnWeNUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnWuNUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50iD0uNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnW-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnXONUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_56MnXeNUEeyLY6YdKPz8Og" name="idPiuAlto">
+      <modelElement href="LeRovinePerdute.uml#_50iq4eNUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56MnXuNUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56MnX-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56MnYONUEeyLY6YdKPz8Og">
+        <modelElement href="LeRovinePerdute.uml#_50jR8ONUEeyLY6YdKPz8Og"/>
+        <type xmi:id="_56MnYeNUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56MnYuNUEeyLY6YdKPz8Og" name="mappaInsediamenti">
+        <modelElement href="LeRovinePerdute.uml#_50iq4uNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnY-NUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnZONUEeyLY6YdKPz8Og" name="HashMap">
+          <modelElement href="LeRovinePerdute.uml#_50K3ceNUEeyLY6YdKPz8Og"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56MnZeNUEeyLY6YdKPz8Og" name="pos">
+        <modelElement href="LeRovinePerdute.uml#_50iq4-NUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56MnZuNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+        <type xmi:id="_56MnZ-NUEeyLY6YdKPz8Og" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_56YNIONUEeyLY6YdKPz8Og" name="Main">
+    <modelElement href="LeRovinePerdute.uml#_5zilUONUEeyLY6YdKPz8Og"/>
+    <visualProperties xmi:id="_56YNIeNUEeyLY6YdKPz8Og" position="1716.0,76.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_56YNIuNUEeyLY6YdKPz8Og" label="+"/>
+    <attributes xmi:id="_56YNI-NUEeyLY6YdKPz8Og" defaultValue="&quot;Tonatiuh&quot;" name="TEAM_1" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50pYkONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56YNJONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_56YNJeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_56YNJuNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_56YNJ-NUEeyLY6YdKPz8Og" defaultValue="&quot;Metztli&quot;" name="TEAM_2" staticAttribute="true">
+      <modelElement href="LeRovinePerdute.uml#_50p_oONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56YNKONUEeyLY6YdKPz8Og" label="-"/>
+      <cardinality xmi:id="_56YNKeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <type xmi:id="_56YNKuNUEeyLY6YdKPz8Og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_56YNK-NUEeyLY6YdKPz8Og" name="main" staticOperation="true">
+      <modelElement href="LeRovinePerdute.uml#_5zjzcONUEeyLY6YdKPz8Og"/>
+      <visibility xmi:id="_56YNLONUEeyLY6YdKPz8Og" label="+"/>
+      <cardinality xmi:id="_56YNLeNUEeyLY6YdKPz8Og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_56YNLuNUEeyLY6YdKPz8Og" name="args">
+        <modelElement href="LeRovinePerdute.uml#_5zjzceNUEeyLY6YdKPz8Og"/>
+        <cardinality xmi:id="_56YNL-NUEeyLY6YdKPz8Og" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_56YNMONUEeyLY6YdKPz8Og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
